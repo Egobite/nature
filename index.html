@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <style>
+        body{
+            background-image: url(./index.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container{
+            position: relative;
+        } 
+
+        img{
+            width: 500px;
+            height: 500px;
+            display: grid;
+        }
+
+        .btn{
+            font-weight: bolder;
+            width: 500px;
+            padding: 15px 20px;
+            font-size:14px;
+            border: none;
+            background-color: #ffcc00;
+            cursor: pointer;
+        }
+  
+        .btn:hover{
+            background-color: rgb(255, 255, 0);
+        } */
+
+        #par1{
+            margin-top: 25px;
+        }
+
+        .cheetah{
+            background-image: url(./index1.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            left: 25px;            
+        }
+
+        .leopard{
+            background-image: url(./index2.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            left: 800px;
+            top: 2px;
+        }
+
+        .jaguar{
+            background-image: url(./index3.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            left: 25px;
+            top: 500px;
+        }
+
+        .tiger{
+            background-image: url(./index4.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            left: 800px;
+            top: 500px;
+        }
+
+        #btn1{
+            position: absolute;
+            top: 300px;
+            left: 25px;
+        }
+        #btn2{
+            position: absolute;
+            top: 300px;
+            left: 800px;
+        }
+        #btn3{
+            position: absolute;
+            left: 25px;
+            top: 845px; 
+        }
+        #btn4{
+            position: absolute;
+            top: 845px;
+            right: 33px;
+        }
+
+        i{
+            width: 20px;
+            padding: 10px;
+            background-color: #ffcc00;
+            color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="cheetah">
+            <i class="fa-solid fa-1"></i>
+       </div>
+        <button class="btn" id="btn1" type="submit"></i>Cheetah</button>
+
+        <div class="leopard"> 
+            <i class="fa-solid fa-2"></i>          
+        </div>
+        <button class="btn" id="btn2" type="submit"></i>Leopard</button>
+
+        <div id="par1" class="jaguar">
+            <i class="fa-solid fa-3"></i>
+        </div>
+        <button class="btn" id="btn3" type="submit"></i>Jaguar</button>
+
+        <div id="par1" class="tiger">
+            <i class="fa-solid fa-4"></i>
+        </div>        
+        <button class="btn" id="btn4" type="submit"></i>Tiger</button>
+        
+    </div>
+</body>
+</html>
